@@ -1,5 +1,5 @@
 import os
-from HarmoniAPI import HarmonyAPI
+from .HarmoniAPI import HarmonyAPI
 from hashlib import md5
 from time import sleep
 
