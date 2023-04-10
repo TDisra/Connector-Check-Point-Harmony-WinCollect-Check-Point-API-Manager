@@ -52,11 +52,3 @@ class Connector(object):
             self.__writeToFile__(logs,'emailAndCollaboration')
             sleep(5)
 
-if __name__ == '__main__':
-    c = Connector(
-        mainPath=r"C:\HarmonyConnector",
-        clientID="7fb3f837277c477da294e87fb33b2f19",
-        secretID="53e2d2e20c4244acb29d815cb6f015e6",
-        url="https://cloudinfra-gw.portal.checkpoint.com/auth/external"
-    )
-    c.startMonitoring()
